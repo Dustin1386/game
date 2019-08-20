@@ -5,7 +5,7 @@ var level = 1;
 var Enemy = function() {
 
   // Set enemy image
-  this.sprite = 'images/enemy-bug.png';
+  this.sprite = 'enemy-bug.png';
 
   // Set enemy x start position
   // this.x = -90;
@@ -76,7 +76,7 @@ var Player = function() {
   this.y = 373.5;
 
   // Set player image
-  this.sprite = 'images/face.png';
+  this.sprite = 'face.png';
 };
 
 Player.prototype.handleInput = function(keyPress) {
